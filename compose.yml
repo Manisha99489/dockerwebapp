@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   devopsdb:
-    image: manisha7799/flm-oct:mydb
+    image: manisha7799/flm-oct:db
     ports:
       - "3306:3306"
     deploy:
